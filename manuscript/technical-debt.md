@@ -1,6 +1,20 @@
 # Technical debt
 
-Technical debt is one of those things that can sneak up on you and invite you when you least expect it. It's also something that is necessary at times. Technical that comes from a few sources. Technical that can come from incomplete requirements. Or simply requirements that weren't completely described to the team and the team so I'm helping to themselves in a corner. Technical that can also come from the team as they're developing the product. Software can become so complex over time that, even small decisions that need correction can build and accumulate into large scale technical debt.
+## What is technical debt?
+
+The term "Technical debt" was first coined in 1992 by Ward Cunningham. he referred to technical debt as something that actually empowers a software development team to release and deliver features more quickly. Ward Cunningham had the product's best interest in mind when coining the term. His definition of technical debt in 1992 was specifically pointed at short term technical debt. However, the software industry has redefined the term and, as a result, technical debt is thought of as a long term problem. Even so, since 1992, our world has been filled with so much "empowering" technical debt that software is neither being delivered early or maintained in a timely manner. 
+
+There are two ways to think about technical debt:
+
+1) Short-term technical debt is a natural occurrence in any software development project. Even well-known software engineering techniques like test-driven development encourage short-lived technical debt (see TDD). With a small, manageable amount of technical debt, software developers have the freedom to create something that "works" and then clean up the technical debt soon thereafter. The idea with short-term technical debt is that it only exists for a few minutes or hours at most. It is simply a tool that is here at the moment and then gone forever. 
+
+2) long-term technical debt is what we usually think of when we hear the term "technical debt". When technical debt is allowed to live beyond the current developers effort, it becomes a part of the software. Instead of being a useful tool to help developers innovate, it converts into something that actually stands in the way of future innovation. Future features can be built on top of the technical debt which further deepens its grasp on the software. 
+
+Technical debt includes but is not limited to stale code comments, out of date documentation, manual integration of deployment processes, hardcoded values, nested structures, conditional structures, temporary hacks, unused code, unused database tables and columns, or anything in design or code that must or should be done in a different way or could stand in the way of future modification or innovation. 
+
+
+
+Technical debt is one of those realities of software development that can sneak up on you and bite you when you least expect it. At times, technical debt is something that is necessary.  Technical debt comes from a few sources: Technical that can come from incomplete requirements. Or simply requirements that weren't completely described to the team and the team so I'm helping to themselves in a corner. Technical that can also come from the team as they're developing the product. Software can become so complex over time that, even small decisions that need correction can build and accumulate into large scale technical debt.
 
 Technical debt exists in many forms. Technical that can be for documentation, unfinished pieces of code, hard-coded values, code that isn't covered by unit tests, unit tests themselves that are poorly designed and needed a lot of maintenance, bugs that have been built on top of making them an inseparable part of the software.
 
@@ -41,18 +55,6 @@ If you or your stakeholders feel confident in the development team, the team wil
 ### Team Engagement
 
 An engaged development team one understands and believes in the vision of the product they are building. Engagement drives better questions which lead to greater ownership and buy-in. An engaged team is more productive and produces a higher quality product. As technical debt builds, the software project becomes less and less enjoyable to work with. Developers find friction at every corner. Team leads become frustrated with missed deadlines. Pressure increases and, as a result, the team becomes less engaged. 
-
-## What is technical debt?
-
-The term "Technical debt" was first coined in 1992 by Ward Cunningham. he referred to technical debt as something that actually empowers a software development team to release and deliver features more quickly. Ward Cunningham had the product's best interest in mind when coining the term. His definition of technical debt in 1992 was specifically pointed at short term technical debt. However, the software industry has redefined the term and, as a result, technical debt is thought of as a long term problem. Even so, since 1992, our world has been filled with so much "empowering" technical debt that software is neither being delivered early or maintained in a timely manner. 
-
-There are two ways to think about technical debt:
-
-1) Short-term technical debt is a natural occurrence in any software development project. Even well-known software engineering techniques like test-driven development encourage short-lived technical debt (see TDD). With a small, manageable amount of technical debt, software developers have the freedom to create something that "works" and then clean up the technical debt soon thereafter. The idea with short-term technical debt is that it only exists for a few minutes or hours at most. It is simply a tool that is here at the moment and then gone forever. 
-
-2) long-term technical debt is what we usually think of when we hear the term "technical debt". When technical debt is allowed to live beyond the current developers effort, it becomes a part of the software. Instead of being a useful tool to help developers innovate, it converts into something that actually stands in the way of future innovation. Future features can be built on top of the technical debt which further deepens its grasp on the software. 
-
-Technical debt includes but is not limited to stale code comments, out of date documentation, manual integration of deployment processes, hardcoded values, nested structures, conditional structures, temporary hacks, unused code, unused database tables and columns, or anything in design or code that must or should be done in a different way or could stand in the way of future modification or innovation. 
 
 ## What motivates technical debt?
 
