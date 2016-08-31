@@ -1,8 +1,10 @@
 # Technical debt
 
-## What is technical debt?
+You can think of technical debt much like any other type of debt. Many businesses depend on debt to grow or survive. Over time, small loans turn into much larger debt. If loans are paid back quickly, they don't accumulate interest. Sometimes payback is delayed for one reason of another. The longer a debt is allowed to exist, the more interest it accumulates and the more it costs. Left unchecked, debts and their cost can grow out of control and may lead to the debtor's downfall. 
 
-The term "Technical debt" was first coined in 1992 by Ward Cunningham. he referred to technical debt as something that actually empowers a software development team to release and deliver features more quickly. Ward Cunningham had the product's best interest in mind when coining the term. His definition of technical debt in 1992 was specifically pointed at short term technical debt. However, the software industry has redefined the term and, as a result, technical debt is thought of as a long term problem. Even so, since 1992, our world has been filled with so much "empowering" technical debt that software is neither being delivered early or maintained in a timely manner. 
+Technical debt is accumulated in much the same way as many small loans. A "technical loan" is any beneficial software development activity that is postponed. For example, developers might take a loan with a feature by hard-coding a value and leaving a "code comment" to future developers to fix it later. Another example of a technical loan is when a developer writes a section of a system without proper tests. Why would a developer postpone such beneficial activities? Well, technical debt, many times, allows developers to meet business demands to deliver software faster. 
+
+The term "technical debt" was first coined in 1992 by Ward Cunningham. He referred to technical debt as something that actually empowers a software development team to release and deliver features more quickly. Ward Cunningham had the product's best interest in mind when coining the term. His definition of technical debt in 1992 was specifically pointed at short term technical debt. However, the software industry has redefined the term and, as a result, technical debt is thought of as a long term problem. Even so, since 1992, our world has been filled with so much "empowering" technical debt that software is neither being delivered early or maintained in a timely manner. 
 
 There are two ways to think about technical debt:
 
