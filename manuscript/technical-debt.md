@@ -69,6 +69,7 @@ The canonical example is Twitter. The software that ran Twitter was thrown toget
 ### Speed
 
 
+
 ### Innovation
 
 
@@ -121,23 +122,10 @@ Though it is nearly impossible to detect technical debt from a user's or stakeho
 
 All of these metrics are explained in more detail in later chapters. 
 
-## Who typically decides went to incur technical debt?
+## Who typically decides whether or not to incur technical debt?
 
-Intentional technical debt comes as a result of a conscious decision by the business I order to deliver faster. 
+As destructive and costly as technical debt can be, wouldn't you think that the decision to incur it falls on the business or product owner? It's true, at times the costs of technical debt can be justified because it allows the team to get to market faster. This results in a business decision, premeditated or inferred, to lay quality aside and push the team to race to the finish line. However, such demands for extreme speed are not the norm. And, if you ask most product owners if they would rather high or low quality, they would choose high quality. So, it seems like it should be a simple business decision, doesn't it? Sadly, most technical debt it incurred by accident. It starts as a small loan in the form of a shortcut, but is left behind and forgotten. Call it lack of skill, lack of experience, or lack of engagement, but technical debt is almost always unintentional. But don't go blaming the programmers. The decision to tolerate technical debt was made before the project began by a lack of communication between the product owner and the team about expectations of quality.
 
-Any other technical debt is not technically decided. Instead, it's something that happens through a series of accidents, oversights and misunderstandings. 
+## Is technical debt inevitable?
 
-On the other hand unintentional technical debt is "decided" by everyone on the team. 
-Everyone shares the blame for technical debt. Many times technical debt is incurred because of a conscious decision to go as fast as possible. Other technical debt is incurred because of requirements that were not fully understood before they were implemented. It would be easy to blame software developers, but the evidence shows that most technical debt comes from the requirements, design and architecture phase, before even the  first line of code is written. 
-
-## Should technical debt be expected and tolerated?
-
-Technical debt that is short term in nature should be expected during software development. Technical debt that is short-lived actually enables developers to innovate and solve tough problems faster. However technical death that is allowed to exist for longer than a few hours becomes long term technical debt. Because of the potential cost of that long-term technical debt, The business needs to make a conscious decision of whether or not it can be tolerated. Outside of those parameters, long-term technical that should never be expected or tolerated. Some believe that technical debt is an inevitable truth of software development. Unfortunately, when people say technical debt is in inevitable, they are usually speaking about long-term technical debt. But the real truth is, long-term technical debt is avoidable and, therefore, should not be expected or tolerated. 
-
-## How does technical debt affect overall software quality?
-
-Software quality is most commonly measured by its ability to live up to expectations on delivery day. But quality should also measured by the software’s ability to accept changes after delivery day. While software may do what it was designed to do, it may be all but impossible to extend an upgrade and fix later on. This difficulty is often caused by technical death that has accumulated over time. Therefore software that is difficult to extend after delivery day should be considered low quality. 
-
-## How does technical debt affect the bottom line?
-
-For some projects, technical debt is actually something that can help the product succeed. However any technical debt that is allowed to live for longer than a few hours become something that will affect the project long-term. Even though a product has become successful by making it to Market early, it's likely that the product will need to be Rewritten or will involve major overhaul at some point. Technical debt always cost more then clean code. This affects total cost of ownership, and in some cases,  can cause the death of a product because of lack of ability to extend and flex with new requirements. The bottom line is, long-term technical debt always affects your bottom line. 
+It's probably impossible to avoid all technical debt, especially considering larger systems. Software projects that dissolve into muddy swamps of technical debt are far too common, but should not be lifted up as the standard. For systems that include quality as a feature, there's no reason why technical debt should go unchecked and be allowed to grow out-of-control. Constant awareness of technical debt and a team-wide commitment to fighting it will yield a system that is flexible and agile for years to come. 
