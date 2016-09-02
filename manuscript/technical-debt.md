@@ -40,6 +40,10 @@ Technical debt exists in many forms. Technical that can be for documentation, un
 
 
 Most software development teams and even individual developers are able to leap out of the gate at full sprint and make great progress at the beginning of a software project. For projects that have managed to maintain low amounts of technical debt over months of development, speed, innovation, stakeholder confidence and team engagement remain high. But, teams who have not managed to fight back technical debt over the long haul find themselves in an impossible situation.
+
+As long as the team agrees that lack of test coverage represents technical debt, then it is possible that you could study could cover his reports and that will show areas of your code that have technical debt. You can also run tools over your code to analyze code as it's being built. Again, your team needs to agree that lower scores means technical debt. If they can agree on that, then these analytics tools can easily be used to identify parts of your code that have higher technical debt levels. 
+
+Another way to recognize technical debt, he is to track the amount of time you spend on fixing bugs in certain features. If a certain feature is costing you a lot of time in bug fixes, then you can assume that that Peacher has a lot of technical debt. 
 [don't know] ****************
 
 ## What motivates technical debt?
@@ -94,11 +98,29 @@ An engaged development team one understands and believes in the vision of the pr
 
 ## How can I recognize technical debt?
 
-Unfortunately, technical debt is usually recognizable only by its affect on team velocity after the fact. A team that was once nimble and agile, will slow down drastically over time as more and more technical that is introduced. 
+Unfortunately, technical debt is hard to spot. In fact, technical debt it mostly invisible to users. In many cases, for non-developers, technical debt is like the wind. You can see the effects of the wind, but you can't see the actual wind. And worse, many times we can't see even the effects of technical debt until the project is already paying the consequences of it.
 
-There are some ways that you and the team can recognize technical debt ahead of time. As long as the team agrees that lack of test coverage represents technical debt, then it is possible that you could study could cover his reports and that will show areas of your code that have technical debt. You can also run tools over your code to analyze code as it's being built. Again, your team needs to agree that lower scores means technical debt. If they can agree on that, then these analytics tools can easily be used to identify parts of your code that have higher technical debt levels. 
+You might have technical debt if...
 
-Another way to recognize technical debt, he is to track the amount of time you spend on fixing bugs in certain features. If a certain feature is costing you a lot of time in bug fixes, then you can assume that that Peacher has a lot of technical debt. 
+* Your once-performant development team is now releasing features and fixes at a snail's pace.
+* Your bug backlog has been your priority for weeks.
+* Your developers are pushing for overhauls and re-writes.
+* You are hiring new team members to replace the ones who you can't seem to keep.
+
+Though it is nearly impossible to detect technical debt from a user's or stakeholder's perspective, we can certainly lift the hood and see what's going on from a more technical vantage point. There's a lot that the code can say about itself as to the level of technical debt it carries. By running your codebase through tools like static analyzers, compilers, linters, and more, you can get a window into a wealth of information about the health of the stuff under the hood. Of course, the merits of each calculated metric can be argued, so it's best to view them with a grain of salt. Here are a few potential metrics that could help reveal some warning signs:
+
+* Lack of Unit Test coverage
+* High cyclomatic complexity
+* High Halstead complexity
+* High number of lines (compared to similar projects)
+* High coupling
+* Low cohesion
+* High occurrance of duplicate code
+* Compiler/linter warnings
+* Style & consistency rule warnings
+
+All of these metrics are explained in more detail in later chapters. 
+
 ## Who typically decides went to incur technical debt?
 
 Intentional technical debt comes as a result of a conscious decision by the business I order to deliver faster. 
