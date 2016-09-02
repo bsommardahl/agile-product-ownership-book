@@ -8,10 +8,6 @@ When building software, development teams are constantly taking loans and, poten
 
 You can think of technical debt much like any other type of debt. Many businesses depend on debt to grow or survive. Over time, small loans turn into much larger debt. If loans are paid back quickly, they don't accumulate interest. Sometimes payback is delayed for one reason of another. The longer a debt is allowed to exist, the more interest it accumulates and the more it costs. Left unchecked, debts and their cost can grow out of control and may lead to the debtor's discomfort or even downfall. 
 
-Benefits of Technical Debt
-
-[need paragraph here]
-
 Short-term Technical Loans 
 
 A technical loan is any beneficial software development activity that is postponed. A natural occurrence in any software development project, small short-term technical loans can be taken in the form of shortcuts, temporarily messy code, or some experimentation. Developers need to think on their toes and take advantage of their creativity while coding. When developers allow themselves to explore and experiment, they can often arrive at a working solution faster than if they had been held to a high engineering standard throughout the process. Even well-known software engineering techniques like test-driven development encourage short-lived technical loans as part of the "red-green-refactor" cycle (see TDD). The red and green stages of that cycle are for experimentation and creating something that "works", taking a small technical loan in the process. The refactor stage is for paying off the technical loan by cleaning up the code. Technical loans offer development teams great benefits, much like my credit cards. Take small, manageable loans, reap the benefits, and pay them off before they are able to incur interest and penalties.
@@ -41,6 +37,9 @@ Technical debt includes but is not limited to...
 Technical debt comes from a few sources: Technical that can come from incomplete requirements. Or simply requirements that weren't completely described to the team and the team so I'm helping to themselves in a corner. Technical that can also come from the team as they're developing the product. Software can become so complex over time that, even small decisions that need correction can build and accumulate into large scale technical debt.
 
 Technical debt exists in many forms. Technical that can be for documentation, unfinished pieces of code, hard-coded values, code that isn't covered by unit tests, unit tests themselves that are poorly designed and needed a lot of maintenance, bugs that have been built on top of making them an inseparable part of the software.
+
+
+Most software development teams and even individual developers are able to leap out of the gate at full sprint and make great progress at the beginning of a software project. For projects that have managed to maintain low amounts of technical debt over months of development, speed, innovation, stakeholder confidence and team engagement remain high. But, teams who have not managed to fight back technical debt over the long haul find themselves in an impossible situation.
 [don't know] ****************
 
 ## What motivates technical debt?
@@ -61,40 +60,37 @@ There are plenty of examples of software projects that have tight deadlines and 
 
 The canonical example is Twitter. The software that ran Twitter was thrown together as fast as possible in order to get to market at the right time. When Twitter made it to users desktops around the world it was an instant success. Since it's first release, Twitter has become a marker in our culture, not just in the United States where Twitter started, but also around the world. But none of the world's new microbloggers realized that Twitter was sitting on top of a back-end hastily built out of sticks and chewing gum. Twitter worked, and that's all that mattered. The benefits of technical debt allowed the makers of Twitter to get something valuable to market at break-neck speeds. Technical debt is probably why Twitter is now a household name. Without the intentional use of technical debt, Twitter might not exist today.
 
-## When is technical debt NOT acceptable?
-
-Technical debt is only acceptable when the product depends on it to succeed. 
-
-
-For example,
-
-1) time constraints are so stringent that you believe your product will not survive if the deadline is not met. 
-
-2) 
-
-## What are the consequences of technical debt?
-
-If the benefits of short-term technical debt are innovation and speed, the consequences of long-term technical debt the exact opposite. Most software development teams and even individual software developers are able to leap out of the gate at full sprint and make great progress at the beginning of a software project. For projects that have managed to maintain low amounts of technical debt over months of development, Speed, Innovation, stakeholder confidence and team engagement remain high. But, teams who have not managed to fight back technical debt over the Long Haul Find themselves in an impossible situation.
+## Benefits of Technical Loans and Debt
 
 ### Speed
 
-Technical debt Usually results in slower development speeds. Many times people compare technical debt too much. As you can imagine, walking in mud is much slower than walking on a firm surface. Your feet get stuck, sometimes you lose a shoe, you're concerned with getting your pants dirty, and you end up having to clean off later on. On the other hand, you're able to walk, run, skip, flip or jump on a solid surface and do all of those things at top speeds. You can go as fast as you want. Development speed of the beginning of a project is very much like walking on a solid surface. It feels great. Everything seems very easy. Working on a project with heavy technical death is very much like walking in mud. Everything seems very slow and difficult. You don't feel very good after you've done it. 
 
 ### Innovation
 
-Writing software is a creative process. Consider an artist painting a tapestry. The painter has paint brushes, various colors and a clean canvas with which she can realize the image in her mind. Artists innovate as they create. They depend on quick feedback loops and responsiveness of their tools and their medium in order to maintain the flow of innovation. Any break down in the process threatens possible failure of the tapestry as a whole. Getting slowed down by mistakes (technical debt) that have accumulated over time is something that can rob a project of its innovative potential. Software that can no longer flex, bend and respond to innovation quickly is software that is Marked for Death. 
+
+## When is technical debt NOT acceptable?
+
+Technical debt is only acceptable when the product depends on it to succeed or survive. Benefits like speed and developer innovation are huge. But constant, unbridled speed is not always the best way to reach your goal. Let's be honest. Most deadlines are imaginary or not nearly as important as we make them out to be. Are we really racing the clock, or do we just want to apply some healthy pressure? If your software is so important to your business, and you have time to build it with care, then "care" that's the standard you should accept from your development team. Technical loans are expected and should be tolerated so long as they are paid off quickly. When your software doesn't depend on speed to market to succeed or survive, then technical debt should not be a part of your team's expectations or standards.
+
+## Consequences of Technical Debt
+
+As mentioned, the benefits of short-lived technical loans are increased innovation and speed. But, once the loans begin to accrue interest, they convert to technical debt. The consequences of technical debt are decreased speed, innovation, stakeholder confidence, and team engagment. 
+
+### Speed
+
+Technical debt usually results in slower development speeds. Many times we compare technical debt to "mud". As you can imagine, walking in mud is much slower than walking on a firm surface. Your feet get stuck, sometimes you lose a shoe, you're concerned about getting your pants dirty, and you end up having to clean off later on. On the other hand, on a solid surface, you're able to walk, run, skip, flip or jump at top speeds. You can go as fast as you want. Development speed at the beginning of a project is very much like running on a solid surface. It feels great. Everything seems smooth and easy. In contrast, working in a project with heavy technical debt is like trying to run in a muddy swamp. Everything takes way too long. What used to take an hour now takes days or weeks. 
+
+### Innovation
+
+Writing software is a creative process. Consider an artist painting a tapestry. The painter has paint brushes, various colors and a clean canvas with which she can realize the image in her mind. Artists innovate as they create. They depend on quick feedback loops and responsiveness of their tools and their medium in order to maintain the flow of innovation. Any break down in the process threatens the completion of the tapestry. Getting slowed down by mistakes (technical debt) that have accumulated over time is something that can rob a project of its innovative potential. Software that can no longer flex, bend and respond to innovation quickly is software that is marked for death. 
 
 ### Stakeholder Confidence
 
 Software projects exist because stakeholders want them to exist. As long as they have confidence in the team and development process, the development team has breathing room and freedom which is beneficial to productivity. When technical debt slows down improvements, fixes, and innovation, stakeholders inevitably (and rightfully) lose confidence in the development team. Micromanagement ensues and freedom is replaced with slavery. 
-You should never underestimate the power of stakeholder confidence. 
-
-If you or your stakeholders feel confident in the development team, the team will have the breathing room they need to 
-
 
 ### Team Engagement
 
-An engaged development team one understands and believes in the vision of the product they are building. Engagement drives better questions which lead to greater ownership and buy-in. An engaged team is more productive and produces a higher quality product. As technical debt builds, the software project becomes less and less enjoyable to work with. Developers find friction at every corner. Team leads become frustrated with missed deadlines. Pressure increases and, as a result, the team becomes less engaged. 
+An engaged development team one understands and believes in the vision of the product they are building. Engagement drives better questions which lead to greater ownership and superior decisions. An engaged team is more productive and produces a higher-quality product. As technical debt builds, the software project becomes less and less enjoyable to work with. Developers find friction at every corner. Team leads become frustrated with missed deadlines. Pressure increases and, as a result, the team becomes less engaged. Eventually, teams that deal with technical debt on a daily basis experience high turn-over, which affects engagement even more because of the need for constant training and internal product evangelism. 
 
 ## How can I recognize technical debt?
 
