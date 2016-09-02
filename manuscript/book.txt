@@ -1,2 +1,3 @@
-toc.md
+intro.md
+software-is-hard.md
 technical-debt.md
