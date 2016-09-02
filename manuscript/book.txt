@@ -1,3 +1,2 @@
 toc.md
-intro.md
 technical-debt.md
