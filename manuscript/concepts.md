@@ -2,6 +2,10 @@
 
 ## Standards
 
+ISO/IEC 12207 is the standard on software lifecycle processes.  this standard is well-thought-out and heavily scrutinized and potentially provided the sound roadmap to a quality product. It is compatible with both waterfall and frameworks, but standards like this are seldom followed or required.
+ 
+At the time of this writing software development is regulated in only a few domains such as medical devices, pharmaceutical, financial, nuclear systems, automotive, and avionic sectors. outside of those domains, software development is comparable to the wild west. 
+ 
 In almost every industry where billions of dollars are spent, there is regulation and standards. Standards are documented and armada law. Those that step outside of those standards are not considered professionals. They can even be held responsible and punished for their Miss deeds. For example in the medical profession, an entire industry has been built on the concept of medical malpractice. Doctors have an oath that says that they will do no harm. When they do harm, there are consequences for that doctor. Accountants must use double entry accounting. Accounting errors introduced by accountants have consequences for that accountant. Construction workers must adhere to government standards and codes before the House or building can pass inspections and be inhabited. What I'm trying to say is that all these industries have standards and rules and people, more or less, follow these rules because they know that they are the right thing to do.
 
 The software industry has never had any such standards. Maybe it's still too new, but software developers are allowed to build systems that may or may not be sound. Software can literally kill people in the right context. More software can cost businesses billions of dollars. Other software can completely ruin and destroy businesses. Isn't it strange that the software industry is not held to any kind of standards or regulation?
