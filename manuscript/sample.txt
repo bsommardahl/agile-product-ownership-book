@@ -1,6 +1,7 @@
 intro.md
 
 software-is-hard.md
+failure-mnc.md
 value.md
 challenges.md
 decisions.md
